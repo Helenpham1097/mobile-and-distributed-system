@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My BookStore</string>
+    <string name="example_for_service">Example For Service</string>
+    <string name="start_service">Start Service</string>
+    <string name="stop_service">Stop Service</string>
+    <string name="content_provider">Content Provider</string>
+    <string name="student_database">Student Database</string>
+    <string name="add_button">Add Student</string>
+    <string name="get_student">Get Student</string>
+</resources>

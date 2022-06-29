@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+    <persistence-unit name="LocationPU" transaction-type="JTA">
+        <jta-data-source>jdbc/MySQLDataSource</jta-data-source>
+        <class>org.distributed.edu.assignment4.model.LocationMessageEntity</class>
+        <properties>
+            <property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver" />
+            <property name="javax.persistence.jdbc.url" value="jdbc:mysql://raptor2.aut.ac.nz:3306/testUnrestricted"/>
+            <property name="javax.persistence.jdbc.user" value="dmsstudent1"/>
+            <property name="javax.persistence.jdbc.password" value="fpn871"/>
+        </properties>
+    </persistence-unit>
+</persistence>
+
